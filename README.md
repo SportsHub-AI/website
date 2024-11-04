@@ -1,14 +1,14 @@
-# Business Website Template
+# Company Website
 
 This is a business website template for a company built using **React 18** (with **TypeScript 4**), **Material UI 5**, **Django 4**, and **Django REST Framework 3**.
 
 ### Dark mode:
 
-![plot](https://github.com/BobsProgrammingAcademy/business-website-template/blob/master/frontend/public/images/dark_theme.png?raw=true)
+![plot](https://github.com/SportsHub-AI/website/blob/master/frontend/public/images/dark_theme.png?raw=true)
 
 ### Light mode:
 
-![plot](https://github.com/BobsProgrammingAcademy/business-website-template/blob/master/frontend/public/images/light_theme.png?raw=true)
+![plot](https://github.com/SportsHub-AI/website/blob/master/frontend/public/images/light_theme.png?raw=true)
 
 ## Table of Contents 
 - [Prerequisites](#prerequisites)
@@ -29,10 +29,23 @@ Install the following prerequisites:
 3. [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## Installation
+### [1] Start by all-in-one shell
+On macOS:
 
-### Backend
+```bash
+./start-site.sh
+```
 
-#### 1. Create a virtual environment
+On Windows:
+
+```bash
+./start-size.bat
+```
+
+### [2] or Start step by step
+#### Backend
+
+##### 1. Create a virtual environment
 
 From the **root** directory, run:
 
@@ -43,7 +56,7 @@ cd backend
 python -m venv venv
 ```
 
-#### 2. Activate the virtual environment
+##### 2. Activate the virtual environment
 
 From the **backend** directory, run:
 
@@ -59,7 +72,7 @@ On Windows:
 venv\scripts\activate
 ```
 
-#### 3. Install required backend dependencies
+##### 3. Install required backend dependencies
 
 From the **backend** directory, run:
 
@@ -67,7 +80,7 @@ From the **backend** directory, run:
 pip install -r requirements.txt
 ```
 
-#### 4. Run migrations
+##### 4. Run migrations
 
 From the **backend** directory, run:
 
@@ -78,7 +91,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-#### 5. Create an admin user to access the Django Admin interface
+##### 5. Create an admin user to access the Django Admin interface
 
 From the **backend** directory, run:
 
@@ -88,9 +101,9 @@ python manage.py createsuperuser
 
 When prompted, enter a username, email, and password.
 
-### Frontend
+#### Frontend
 
-#### 1. Install required frontend dependencies
+##### 1. Install required frontend dependencies
 
 From the **root** directory, run:
 
@@ -194,4 +207,4 @@ To modify the two buttons in the Hero section, make changes in the ```frontend/s
 
 ## Copyright and License
 
-Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
+

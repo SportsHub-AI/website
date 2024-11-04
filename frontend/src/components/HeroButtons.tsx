@@ -70,7 +70,9 @@ const HeroButtons = (): JSX.Element => {
             variant='outlined'
             size='large'
             fullWidth={isMd ? false : true}
-            href='#'
+            href='https://www.bilibili.com/video/BV1GJ411x7h7'
+            target="_blank"
+            rel="noopener noreferrer"
             endIcon={<PlayIcon />}
             disableElevation={true}
             sx={{

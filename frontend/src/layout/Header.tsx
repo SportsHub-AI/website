@@ -64,7 +64,7 @@ const Header = ({ onSidebarOpen }: Props): JSX.Element => {
                     marginLeft: '10px',
                   }}
                 >
-                  Bob's Company
+                  SportsHub.AI
                 </Typography>
               </Box>
             </IconButton>

@@ -37,8 +37,8 @@ const App = (): JSX.Element => {
   return (
     <HelmetProvider>
       <Helmet
-        titleTemplate="%s | Bob's Programming Academy"
-        defaultTitle="Bob's Programming Academy"
+        titleTemplate="%s | SportsHub.AI"
+        defaultTitle="SportsHub.AI"
       />
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={getTheme(mode)}>
